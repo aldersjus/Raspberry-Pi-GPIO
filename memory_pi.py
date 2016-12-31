@@ -17,7 +17,7 @@ GPIO.setup(27, GPIO.OUT)#led three
 GPIO.setup(17, GPIO.OUT)#led four
 
 #Here are the various variable neede to allow the code to function.
-highscore_name = ["Farley"]
+highscore_name = ["Justin"]
 highscore_value = [12]
 inputs = []
 leds = [ 23,22,27,17]
