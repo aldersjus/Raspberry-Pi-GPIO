@@ -16,14 +16,14 @@ GPIO.setup(22, GPIO.OUT)#led two
 GPIO.setup(27, GPIO.OUT)#led three
 GPIO.setup(17, GPIO.OUT)#led four
 
-#Here are the various variable neede to allow the code to function.
+#Here are the various variables needed to allow the code to run.
 highscore_name = ["Justin"]
 highscore_value = [12]
 inputs = []
 leds = [ 23,22,27,17]
 pos = 0
 delay = 0.5
-#Values below are used to append to list to check same order. The starting order is below.
+#Values below are used to append to a list to check the order. The starting order is below.
 a = 23#led one
 b= 22
 c = 27
